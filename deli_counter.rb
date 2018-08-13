@@ -3,12 +3,12 @@ def line (arr)
   if arr.length == 0
     puts "The line is currently empty."
   else 
-    line_string = "The line is currently: "
+    line_string = "The line is currently:"
     line_index = 1
     arr.each do |name|
       line_string = line_string + "  #{line_index}. #{name}"
-      puts line_string
     end
+    puts line_string
   end
     
 end
