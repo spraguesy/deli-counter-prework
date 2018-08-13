@@ -7,6 +7,7 @@ def line (arr)
     line_index = 1
     arr.each do |name|
       line_string = line_string + "  #{line_index}. #{name}"
+      line_index += 1
     end
     puts line_string
   end
